@@ -1,0 +1,112 @@
+@media  screen and (max-width: 475px) {
+    html, body {
+        margin-left: 5px;
+        overflow-x: hidden;
+    }
+    header {
+        margin-left: -34px;
+    }
+    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5), header div:nth-child(6), header div:nth-child(7), header div:nth-child(8),header div:nth-child(10), .login-none, .fixed, .rowb{
+        display: none;
+    }
+    header div:nth-child(1) {
+        margin-left: -20px;
+        width: 30px !important;
+    }
+    .display-4 {
+        width: 300px;
+        position: relative;
+        left: -30px;
+        word-spacing: -5px;
+    }
+    .moon .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .clot {
+        width: 350px;
+        position: relative;
+        left: -30px;
+    }
+    .paddinga, .what  {
+      width: 350px;
+      margin-left: -10px !important;
+    }
+    .mid {
+       width: 420px; 
+    }
+    .far-button {
+        position: relative;
+        left: 120px !important;
+    }
+    .deep {
+        width: 300px;
+    }
+    .Watch {
+        width: 300px;
+    }
+    .cold {
+        width: 300px;
+    }
+    .bo {
+        position: relative;
+        right: 550px;
+        top: -500px;
+    }
+    .radius {
+        margin-left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .radius div:nth-child(3) {
+        position: relative;
+        left: 30px;
+    }
+    .rad-image {
+        width: 400px;
+    }
+    .alicenter {
+        position: relative;
+        right: 250px;
+        width: 300px !important;
+    }
+    .container-fluid div, .container div {
+        margin-bottom: 20px;
+    }
+    .squirrel {
+        width: 450px !important;
+        /* height: 1000px; */
+        position: relative;
+        top: 80px;
+        z-index: 2;
+    }
+    .order {
+        margin-top: -60px;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 2;
+    }
+    .order2 img {
+        width: 320px;
+    }
+    .steep {
+        position: relative;
+        left: -450px !important;
+    }
+    .newsletter {
+        height: 600px;
+        background-image: url(./images/hp-newsletter-card.jpg);
+        background-repeat: no-repeat;
+        background-position: -30px 30px;
+        background-size: 500px 600px;
+    }
+    .most {
+        width: 200px;
+    }
+   .last div {
+      width: 340px;
+   }
+}

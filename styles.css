@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+header {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    padding: 30px 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-success {
+    position: relative;
+    top: -10px;
+}
+.module {
+    background-color: #eaf5fe;
+}
+
+.deep {
+    background-color: #0176d3;
+    font-weight: 700;
+    color: white;
+}
+.display-4 {
+    font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+    color: #032d60 !important;
+    width: 630px;
+    word-spacing: -5px;
+}
+.moon {
+    background-image: url(./images/homepage-success-now-lg-bg231.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+}
+.fixed {
+    background-color: #0176d3;
+    display: flex;
+    color: white;
+    justify-content: end;
+    position: relative;
+    position: fixed;
+    top: 570px;
+    z-index: 2;
+    right: 50px;
+}
+.Watch {
+    border-color: #0176d3;
+    color: #0176d3;
+    font-weight: 500;
+    position: relative;
+}
+h3 {
+    width: 830px;
+    font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+    color: #032d60 !important;
+}
+.acenter a {
+    color: black;
+    margin: 60px;
+    font-weight: 600;
+}
+.acenter p, .alicenter {
+    text-align-last: center;
+}
+.movep {
+    position: relative;
+    top: -60px;
+    z-index: -1;
+    width: 100vw;
+}
+
+.bo {
+    position: relative;
+    top: -220px;
+    z-index: -1;
+    height: 300px;
+}
+.bo button {
+    position: relative;
+    top: 180px;
+    left: 580px;
+}
+.radius div img {
+    border-radius: 100px;
+}
+.radius {
+    position: relative;
+    top: 200px;
+}
+.radius p {
+    text-align-last: center;
+}
+.img-move .col img {
+    margin-left: 80px;
+}
+.cat {
+    margin-top: 100px;
+}
+.rowb div a {
+    color: #0b5cab;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+select {
+    width: 10px;
+}
+.bane {
+    border: 2px solid;
+    text-align: center;
+    width: 150px;
+    margin-left: 100px;
+}
+.mx-5 .col-7 p a, .last div a {
+    color: #00a1e0;
+} 
+.newsletter {
+background-image: url(./images/hp-newsletter-card.jpg);
+background-repeat: no-repeat;
+background-position: -30px -300px;
+background-size: 600px 600px;
+}
