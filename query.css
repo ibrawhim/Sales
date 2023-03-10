@@ -5,16 +5,23 @@
     header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5), header div:nth-child(6), header div:nth-child(7), header div:nth-child(8),header div:nth-child(10), .login-none, .fixed, .rowb{
         display: none;
     }
+    header div:nth-child(9) {
+        position: relative;
+        left: 15px;
+    }
     header div:nth-child(1) {
         margin-left: -20px;
         width: 30px !important;
     }
     .display-4 {
+        background-color: #eaf5fe;
         font-size: 40px;
         font-weight: 700;
-        width: 300px;
+        width: 400px;
         position: relative;
-        left: -30px;
+        left: -60px;
+        padding-top: 30px;
+        padding-left: 30px;
     }
     .display3 {
         font-size: 40px;
@@ -46,7 +53,7 @@
        width: 420px; 
     }
     .hill, .row5 {
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .far-button {
         position: relative;
@@ -59,6 +66,9 @@
         width: 350px;
         position: relative;
         right: 40px;
+    }
+    .crm img {
+        width: 320px;
     }
     .watch1 {
     width: 350px;
@@ -76,7 +86,7 @@
     }
     .radius {
         position: relative;
-        left: -40px;
+        left: -20px;
         width: 400px;
         display: flex;
         flex-wrap: wrap;
@@ -133,6 +143,6 @@
         width: 200px;
     }
    .last div {
-      width: 340px;
+      width: 300px;
    }
 }

@@ -29,6 +29,7 @@ header {
     color: #032d60 !important;
     width: 630px;
     word-spacing: -5px;
+    font-weight: 900;
 }
 .moon {
     background-image: url(./images/homepage-success-now-lg-bg231.jpg);
