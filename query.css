@@ -145,3 +145,73 @@
       width: 300px;
    }
 }
+@media screen and (min-width: 476px) and (max-width: 768px) {
+    html, body {
+        width: 767px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    header {
+        width: 100% !important;
+    }
+    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5), header div:nth-child(6), header div:nth-child(7), header div:nth-child(8),header div:nth-child(10), .login-none, .fixed, .rowb{
+        display: none;
+    }
+    
+    .display-4 {
+        background-color: #eaf5fe;
+        font-size: 40px;
+        font-weight: 700;
+        width: 1000px;
+        position: relative;
+        left: -60px;
+        padding: 70px;
+    }
+    .nowrap {
+        white-space: nowrap;
+    }
+    .display3 {
+        font-size: 40px;
+        font-weight: 700;
+        width: 750px !important;
+        position: relative;
+        left: 70px;
+    }
+    .row2 .card {
+        width: 750px !important;
+        margin-left: 70px;
+    }
+    .row .card {
+        width: 500px !important;
+    }
+    .Watch3 {
+        position: absolute;
+        left: 850px !important;
+        top: 400px !important;
+    }
+    .rad-image {
+        width: 800px;
+    }
+    .alicenter {
+        position: relative;
+        right: 150px;
+        width: 500px !important;
+    }
+    .paddinga  {
+        width: 350px;
+        margin-left: 90px !important;
+    }
+    .paddinga img {
+        width: 500px !important;
+    }
+    .padding7 .card {
+        width: 900px !important;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+  
