@@ -20,8 +20,7 @@
         width: 400px;
         position: relative;
         left: -60px;
-        padding-top: 30px;
-        padding-left: 30px;
+        padding: 100px    ;
     }
     .display3 {
         font-size: 40px;
