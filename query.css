@@ -2,8 +2,10 @@
     html, body {
         overflow-x: hidden;
     }
-    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5), header div:nth-child(6), header div:nth-child(7), header div:nth-child(8),header div:nth-child(10), .login-none, .fixed, .rowb{
-        display: none;
+    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5),
+    header div:nth-child(6), header div:nth-child(7), header div:nth-child(8), header div:nth-child(10),
+    .login-none, .fixed, .rowb{
+            display: none;
     }
     header div:nth-child(9) {
         position: relative;
@@ -13,13 +15,15 @@
         margin-left: -20px;
         width: 30px !important;
     }
+    .moon {
+        background-size: 1000px 1000px;
+    }
     .display-4 {
-        background-color: #eaf5fe;
         font-size: 40px;
         font-weight: 700;
         width: 500px;
         position: relative;
-        left: -60px;
+        left: -90px;
         padding: 70px    ;
     }
     .display3 {
@@ -146,6 +150,14 @@
    }
 }
 @media screen and (min-width: 476px) and (max-width: 768px) {
+    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5),
+    header div:nth-child(6), header div:nth-child(7), header div:nth-child(8), header div:nth-child(10), .fixed {
+        display: none;
+    }
+    header div:nth-child(2) {
+        display: none;
+    }
+     
     html, body {
         width: 767px;
         box-sizing: border-box;
@@ -156,18 +168,17 @@
     header {
         width: 100% !important;
     }
-    header div:nth-child(2), header div:nth-child(3), header div:nth-child(4), header div:nth-child(5), header div:nth-child(6), header div:nth-child(7), header div:nth-child(8),header div:nth-child(10), .login-none, .fixed, .rowb{
-        display: none;
-    }
-    
     .display-4 {
-        background-color: #eaf5fe;
+        /* background-color: #eaf5fe; */
         font-size: 40px;
         font-weight: 700;
-        width: 1000px;
+        width: 500px;
         position: relative;
-        left: -60px;
-        padding: 70px;
+        left: 20px;
+        padding-top: 70px;
+    }
+    .moon {
+        background-size: 1000px 1000px;
     }
     .nowrap {
         white-space: nowrap;
@@ -211,6 +222,16 @@
     }
     .card {
         margin-bottom: 30px;
+    }
+    .moon .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .moon .row .d-grid {
+        display: flex !important;
+    }
+    .d-grid .deep1 {
+        padding: 0px 50px !important;
     }
 }
 
