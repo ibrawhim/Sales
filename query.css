@@ -55,8 +55,11 @@
     .mid {
        width: 420px; 
     }
-    .hill, .row5 {
-        margin-left: -20px;
+    .hill {
+        margin-left: -10px;
+    }
+    .row5 {
+        margin-left: -10px;
     }
     .far-button {
         position: relative;
